@@ -6,6 +6,5 @@
 
 5) SELECT name, species, period, diet, t_order FROM dinos WHERE t_order = 'Saurischia' AND diet = 'Herbivorous';
 
-6)
-
-7) SELECT name, species, period, diet, FROM dinos WHERE t_order = 'Saurischia' AND diet = 'Herbivorous';
+6) SELECT name, id, length FROM dinos ORDER BY length LIMIT 1;
+SELECT name, id, length FROM dinos ORDER BY length LIMIT 1;
